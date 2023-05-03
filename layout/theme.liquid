@@ -235,7 +235,8 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-  {% include 'store-credit-launcher' %}
+  
+{% include 'store-credit-launcher' %}
 </head>
 
   <body class="gradient">
@@ -292,6 +293,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  {% include 'store-credit-launcher' %}
+  
+{% include 'store-credit-launcher' %}
 </body>
 </html>
